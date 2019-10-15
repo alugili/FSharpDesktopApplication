@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>FSharpMyFirstDemo</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="DataContext.fs" />
+    <Compile Include="Domain.fs" />
+    <Compile Include="MainView.fs" />
+    <Compile Include="Controller.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="3.6.0" />
+    <PackageReference Include="FSharp.Desktop.UI" Version="0.7.1" />
+    <PackageReference Include="SQLProvider" Version="1.1.68" />
+  </ItemGroup>
+</Project>
